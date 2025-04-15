@@ -22,9 +22,7 @@ export default function SetAvatar() {
     theme: "dark",
   };
 
-  useEffect(() => {
-    console.log("Set Avatar Page");
-    
+  useEffect(() => {    
     const user = localStorage.getItem("uni-chat-data");
     if (!user) navigate("/login");
   }, [navigate]);
