@@ -25,7 +25,7 @@ const server = app.listen(port, () =>
 
 const io = new Server(server, {
   cors: {
-    origin: "https://unichat-server-five.vercel.app",
+    origin: "https://unichat-rouge.vercel.app",
     credentials: true,
   },
 });
